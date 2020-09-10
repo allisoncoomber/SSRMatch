@@ -9,7 +9,7 @@ BRUVOS_MATCH_THRESHOLD <-  0.09929323
 K <- 1
 
 # TODO: Low Priority: Consider setting some columns as factors
-DATABASE <- read.table("/Users/Allison/Documents/NCSU/Ristaino Lab/Workshop/sample_1_reference.txt", header=TRUE, encoding="UTF-8",stringsAsFactors = FALSE, colClasses = c(rep("character",20)))
+DATABASE <- read.table("all_12_revised.txt", header=TRUE, encoding="UTF-8",stringsAsFactors = FALSE, colClasses = c(rep("character",20)))
 DESCRIPTIONS <- read.table("descriptions.txt", header=FALSE, sep="\t", stringsAsFactors = FALSE)
 
  load_user_csv <- function(userCSV) {
